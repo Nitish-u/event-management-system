@@ -1,9 +1,9 @@
 import "./index.css"
-import Auth from "./pages/Authentication/Auth"
+import EntryPage from "./pages/Enter page/EntryPage"
 
 
 function App() {
-  return <Auth/>
+  return <EntryPage/>
 }
 
 export default App

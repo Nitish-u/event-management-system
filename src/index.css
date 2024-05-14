@@ -2,14 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-.inputStyles{
-    @apply p-2 border-2 border-black rounded-lg w-72;
-}
 
-a{
-    @apply hover:underline;
-}
+@layer components{
+    input{
+        outline:none;
+    }
 
-button, input[type="submit"]{
-    @apply hover:bg-black hover:text-white transition-all duration-500 cursor-pointer active:scale-95;
+    .inputStyles{
+        @apply p-2 border-2 border-black rounded-lg w-72;
+    }
+    
+    a{
+        @apply hover:underline;
+    }
+    
+    button, input[type="submit"]{
+        @apply hover:bg-black hover:text-white transition-all duration-500 cursor-pointer active:scale-95;
+    }
+    
+    .entryPage{
+        background-image: url('./images/entryPageBg.avif');
+    }
+
+    input[value="Find my team"]{
+        @apply hover:bg-blue-600;
+    }
 }
