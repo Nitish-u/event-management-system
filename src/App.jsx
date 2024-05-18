@@ -1,9 +1,8 @@
 import "./index.css"
-import EntryPage from "./pages/Enter page/EntryPage"
-
+import Dashboard from "./pages/Dashboard/Dashboard"
 
 function App() {
-  return <EntryPage/>
+  return <Dashboard/>
 }
 
 export default App
