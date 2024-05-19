@@ -36,4 +36,8 @@
   .taskDescriptionBtns {
     @apply hover:bg-white hover:text-blue-800 hover:underline;
   }
+
+  .flags::-webkit-scrollbar {
+    display: none;
+  }
 }
